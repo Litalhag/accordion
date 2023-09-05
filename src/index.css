@@ -48,7 +48,7 @@ html {
   /* rest of the vars */
   --backgroundColor: var(--grey-50);
   --textColor: var(--grey-900);
-  --borderRadius: 0.25rem;
+  --borderRadius: 1rem;
   --letterSpacing: 1px;
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
@@ -252,11 +252,35 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
-/* ============= PROJECT CSS =============== */
-/* optional */
 
+/* background: var(--primary-100); */
+/* background-image: linear-gradient(
+  to right top,
+  #139e79,
+  #55974d,
+  #818c23,
+  #a97a0e,
+  #cc5f29
+  ); */
+/* background-image: linear-gradient(
+    to right top,
+    #139e79,
+    #70a568,
+    #a4a969,
+    #ccad7b,
+    #e6b39a
+    ); */
+
+/* ============= PROJECT CSS =============== */
 body {
-  background: var(--primary-100);
+  background-image: linear-gradient(
+    to right top,
+    #fff3ed,
+    #e9d5cc,
+    #d2b9ac,
+    #bc9c8d,
+    #a6816f
+  );
 }
 main {
   min-height: 100vh;
@@ -269,7 +293,7 @@ main {
 .container {
   width: 90vw;
   margin: 5rem auto;
-  background: var(--white);
+  background: #fffefd;
   border-radius: var(--borderRadius);
   padding: 2.5rem;
   max-width: 800px;
@@ -282,7 +306,7 @@ main {
 }
 .question {
   padding: 1rem 1.5rem;
-  border: 2px solid var(--grey-200);
+  border: 3px solid #fbf9f8;
   margin-bottom: 1rem;
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-3);
@@ -310,7 +334,7 @@ main {
   border-color: transparent;
   width: 2rem;
   height: 2rem;
-  background: var(--primary-900);
+  background: var(--grey-600);
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,36 +1,28 @@
-## Figma URL
+---
 
-[Accordion](https://www.figma.com/file/TAwJ3kWOqkw0o8UVtAMOHO/Accordion?node-id=0%3A1&t=1YEti8xBykw69tBH-1)
+## React Q&A App
 
-## Steps
+Welcome to the React Q&A App! This simple one-page application displays a list of 6 questions. If you're curious about the answers, just click the '+' button next to each question to reveal them.
 
-#### Examine and Import Data
+### Features
 
-Review data.js and import the questions array from data.js into your project. This array should contain objects that represent the questions and their associated data, such as the question text
+- **Interactive UI**: Easily toggle answers on and off with a click.
+- **Clean Design**: Focus solely on the content with a minimalistic design approach.
+- **Responsive**: Whether on desktop or mobile, the app provides a seamless experience.
 
-#### Setup State Value
+### Getting Started
 
-Next, set up the questions array as a state variable using the useState hook. This will allow you to modify the data and have those changes automatically reflected in the rendered output.
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install the required dependencies.
+4. Run `npm start` to launch the app. Your browser should open automatically displaying the app.
 
-#### Render Questions
+### Acknowledgments
 
-To display the list of questions, you can iterate over the questions array and render a SingleQuestion component for each item in the array. Each SingleQuestion component should display the question text in the header, along with a button to toggle the question text.
+This app was developed with guidance from a Udemy course. A big thanks to the instructor for the code-along lecture which made this project possible.
 
-#### Toggle Question
+### Feedback
 
-In the SingleQuestion component, you can set up the functionality for the toggle button by defining a function that toggles the state of a "showInfo" flag. When the flag is set to true, the answer text will be displayed. When the flag is set to false, only the question text will be displayed.
+If you have any suggestions or find any bugs, please open an issue in this repository. Contributions are always welcome!
 
-#### Extra Challenge
-
-To set up the functionality where only one question is displayed at a time, you can modify the state of the questions array to keep track of the currently selected question. You can do this by defining a function that updates the state to reflect the selected question index. Then, you can use the selected question index to render only the SingleQuestion component that corresponds to the currently selected question.
-
-Overall, the flow of the application should look something like this:
-
-- Import the questions array from data.js into your project.
-- Set up the questions array as a state variable using the useState hook.
-- Iterate over the questions array and render a SingleQuestion component for each item in the array.
-- In the SingleQuestion component, display the question text in the header and a button to toggle the question text.
-- Define a function that toggles the state of a "showAnswer" flag, which determines whether the answer text is displayed or not.
-- Modify the state of the questions array to keep track of the currently selected question index.
-- Define a function that updates the state to reflect the selected question index.
-- Use the selected question index to render only the SingleQuestion component that corresponds to the currently selected question.
+Happy Learning!
