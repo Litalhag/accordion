@@ -17,7 +17,7 @@ Welcome to the React Q&A App! This simple one-page application displays a list o
 
 ### Getting Started
 
-1. Clone this repository [here]('https://github.com/Litalhag/accordion')
+1. Clone this repository [here](https://github.com/Litalhag/accordion)
 2. Navigate to the project directory.
 3. Run `npm install` to install the required dependencies.
 4. Run `npm start` to launch the app. Your browser should open automatically displaying the app.
