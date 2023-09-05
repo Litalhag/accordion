@@ -10,6 +10,11 @@ Welcome to the React Q&A App! This simple one-page application displays a list o
 - **Clean Design**: Focus solely on the content with a minimalistic design approach.
 - **Responsive**: Whether on desktop or mobile, the app provides a seamless experience.
 
+## Screenshots
+
+![Screen Shot 2023-09-05 at 23 56 29](https://github.com/Litalhag/accordion/assets/130139673/0f3f38ec-5969-4be4-af97-d2ee0bac414a)
+![Screen Shot 2023-09-05 at 23 56 41](https://github.com/Litalhag/accordion/assets/130139673/15533f0a-7272-4b5d-829c-065b1f31442d)
+
 ### Getting Started
 
 1. Clone this repository.
